@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    background: transparent;
+}
+
+.header{
+    background: #F2F2F2;
+    max-height: fit-content;
+    border-bottom: 1px solid black;
+}
+.cap_header{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    z-index: 1;
+    top: 13px;
+    left: 290px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding-left: 10%;
+}
+#Eat1{
+    color: orange;
+}
+.nav{
+    display: flex;
+}
+.list_nav{
+    display: flex;
+    font-size: 25px;
+}
+.item_nav{
+    margin-left: 100px;
+    margin: 30px;
+    list-style-type: none;
+}
+.item_nav_title{
+    color: black;
+    text-decoration: none;
+}
+.button{
+    border-radius: 10px;
+    margin-right: 60px;
+    transition: background-color 0.3s;
+    border: 0.1px solid black;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: white;
+}
+.main{
+    margin: 0 15px;
+    border-radius: 50px
+}
+.my_team_info_text{
+    border: 1px solid black;
+}
+.my_team_info_title{
+    margin-left: 80px;
+}
+.abvgd{
+    
+}
+.my_team_info{
+    display: flex;
+}
+.title_team{
+    padding-top: 20px;
+    margin-left: 293px;
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text_team{
+    margin-top: 13px;
+    max-width: 800px;
+    margin-left: 55px;
+    color: #000;
+    font-family: Secular One;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.02px; 
+}
+.img_team{
+    border: 1px solid rgb(131, 131, 131);
+    margin-left: 140px;
+    width: 630px;
+    height: 473px;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+.application{
+    margin-bottom: 100px;
+}
+.application_title{
+    margin-top: 110px;
+    margin-left: 45%;
+    color: #000;
+    font-family: Sedan;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.03px;
+}
+.text_application{
+    margin-top: 50px;
+    margin-left: 28%;
+    width: 873px;
+    height: 203px;
+    flex-shrink: 0; 
+    color: #000;
+    text-align: center;
+    font-family: Secular One;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.02px;
+}
+.name_application{
+    font-weight: 600;
+    font-style: italic;
+}
+.list_img_application{
+    margin-top: 29px;
+    margin-left: 16%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+}
+.item_img{
+    width: 300px;
+    height: 592px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    transition: 0.4s;
+    /* cursor: zoom-in;
+    cursor: -webkit-zoom-in;
+    cursor: -moz-zoom-in; */
+}
+.item_img:hover{
+    transform: scale(1.1);
+}
+.container_opportunity{
+    margin-top: 90px;
+}
+.title_opportunity{
+    margin-left: 700px;
+    color: #000;
+    font-family: Secular One;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;        
+}
+.text_opportunity{
+    margin-left: 770px;
+    color: #000;
+    font-family: Secular One;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.task2{
+    padding-bottom: 20px;
+}
+.container_history_product{
+    display: flex;
+}
+.img_history_product{
+    margin-left: 200px;
+    width: 500px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.h2_history_product{
+    padding-top: 0px;
+    margin-left: 80px;
+    color: #000;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.container_contacts{    
+    margin-left: 45%;
+}
+.list_contacts_div{
+    margin-left: 100px;
+    display: flex;
+}
+.h1_title{
+    text-align: center;
+    font-size: 42px;
+    font-weight: normal;
+    margin: 30px 0;
+}
